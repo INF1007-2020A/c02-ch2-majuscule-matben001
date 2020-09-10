@@ -4,6 +4,7 @@ def majuscule(mot):
     resultat = ''
     dist_entre_lettre_min_maj = ord('a') - ord('A')
     for lettre in mot:
+        if ord
         lettre=chr(ord(lettre)- dist_entre_lettre_min_maj)
         
 
