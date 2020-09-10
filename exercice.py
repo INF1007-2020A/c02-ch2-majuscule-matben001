@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 def majuscule(mot):
     resultat = ''
-    dist
+    dist_entre_lettre_
     for lettre in mot:
         lettre=chr(ord(lettre)-32)
 
