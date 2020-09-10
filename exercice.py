@@ -3,7 +3,7 @@
 def majuscule(mot):
     resultat = ''
     for lettre in mot:
-        lettre=ord(lettre)
+        lettre=chr(ord(lettre))
         print(lettre)
         # TODO completer la fonction ici
         
