@@ -2,9 +2,10 @@
 # -*- coding: utf-8 -*-
 def majuscule(mot):
     resultat = ''
-    dist_entre_lettre_min_maj = ord('a') -ord('A')
+    dist_entre_lettre_min_maj = ord('a') - ord('A')
     for lettre in mot:
-        lettre=chr(ord(lettre)-32)
+        lettre=chr(ord(lettre)- dist_entre_lettre_min_maj)
+        
 
         # TODO completer la fonction ici
         
